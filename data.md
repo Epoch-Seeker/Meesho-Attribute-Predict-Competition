@@ -12,6 +12,9 @@ The dataset used in this project is from the Kaggle competition [Visual Taxonomy
 2. Run the following command in your terminal to download the dataset:
    ```bash
    kaggle competitions download -c visual-taxonomy
-3. Use unzip for accessing files:
+3. Use zipfile to extract files to access:
    ```bash
-   unzip visual-taxonomy.zip
+   import zipfile
+   zip_ref = zipfile.ZipFile('/content/visual-taxonomy.zip', 'r')
+   zip_ref.extractall('/content')
+   zip_ref.close()
