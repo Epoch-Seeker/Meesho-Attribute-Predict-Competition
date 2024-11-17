@@ -1,7 +1,5 @@
 # Meesho-Attribute-Predict-Competition
 
-# Clothing Classification Project
-
 ## Setup Instructions
 
 ### Prerequisites
