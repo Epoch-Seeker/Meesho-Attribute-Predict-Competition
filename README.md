@@ -1,5 +1,14 @@
 # Meesho-Attribute-Predict-Competition
 
+## Collaborators
+
+- [Sunny Kumar](https://github.com/Epoch-Seeker)
+- [sowhatnowgithub](https://github.com/sowhatnowgithub)
+- [Shresth](https://github.com/notsocoolshresth)
+- [Vedalaxman](https://github.com/Vedalaxman)
+
+> Please change the path directories accordingly in each file.
+
 ## Setup Instructions
 
 ### Prerequisites
