@@ -48,12 +48,12 @@ pip install -r requirements.txt
 ```
 project/
 ├── data.md
+├── starting.py
 ├── men_tshirts.ipynb
 ├── sarees.ipynb
 ├── kurtis.ipynb
 ├── women_tshirts.ipynb
 └── women_tops_and_tunics.ipynb
-└── README.md
 ```
 
 ### Data Preprocessing Steps
@@ -100,7 +100,7 @@ def preprocess_image(image_path):
     # Read and preprocess image
     img = cv2.imread(image_path)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    img = cv2.resize(img, (224, 224))
+    img = cv2.resize(img, (128, 128))
     img = img / 255.0
     return img
 ```
@@ -112,7 +112,7 @@ def preprocess_image(image_path):
 ### Model Architecture
 ```python
 model = Sequential([
-    Conv2D(32, (3, 3), activation='relu', input_shape=(224, 224, 3)),
+    Conv2D(32, (3, 3), activation='relu', input_shape=(128, 128, 3)),
     MaxPooling2D((2, 2)),
     BatchNormalization(),
     Dropout(0.2),
