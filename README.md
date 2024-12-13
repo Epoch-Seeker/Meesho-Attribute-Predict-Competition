@@ -151,7 +151,7 @@ These are the weights of the model.
 ### Model Weights
 
 Download trained weights from:
-[https://drive.google.com/file/d/14aHzv6mW0jXbE6NimngNdjXqeSdIhxgF/view?usp=sharing]
+[https://mega.nz/file/yJ10ARzD#VqBW6V6_Y1yorsdIZn1fi9B15i9EtZb4NOqBynk8GZI]
 
 
 Once weights are downloaded, open a categorie of one the notebook and then loads the weight and execute
